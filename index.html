@@ -161,6 +161,12 @@
         <h4 class="info2">bward7071@gmail.com</h4>
 
         <form class="form-container form-box" action="https://formsubmit.co/emyudin@gmail.com" method="POST">
+            <!-- EMAIL HONEYPOT FOR SPAM -->
+            <input type="text" name="_honey" style="display: none;">
+            <!-- DISABLE CAPTCHA -->
+            <input type="hidden" name="_captcha" value="false">
+
+
             <div class="name-form">
                 <label for="firstName" class="form-label"></label>
                 <input type="text" class="form-control form-style" id="firstName" name="Name" placeholder="Name" required>
